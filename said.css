@@ -754,8 +754,8 @@ iframe {
   
   .card {
     position: relative;
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     overflow: hidden;
     border-radius: 10px;
     cursor: pointer;
@@ -790,5 +790,5 @@ iframe {
   }
   
   .card:hover img {
-    transform: scale(0.7);
+    transform: scale(1.1);
   }
