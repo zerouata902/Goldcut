@@ -481,19 +481,19 @@ nav ul li a {
 }
 
 .day {
-    background: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.726);
+    color: white;
     padding: 12px;
     border-radius: 5px;
     font-size: 18px;
     display: flex;
     justify-content: space-between;
     transition: transform 0.3s ease, background 0.3s ease;
-    color: rgb(0, 0, 0);
 }
 
 .day:hover {
-    background: rgba(0, 0, 0, 0.726);
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     transform: scale(1.05);
 }
 
