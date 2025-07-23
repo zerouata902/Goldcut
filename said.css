@@ -106,7 +106,7 @@ header h2:hover {
     right: 100px;
     border: none;
     color: white;
-    font-size: 28px;
+    font-size: 32px;
     cursor: pointer;
     transition: 0.3s;
     margin-bottom :5px;
@@ -792,3 +792,9 @@ iframe {
   .card:hover img {
     transform: scale(1.1);
   }
+
+.testimonial-box .stars {
+  color: white;
+  font-size: 18px;
+  margin-top: 5px;
+}
